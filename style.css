@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #1D1E26;
+    font-family: 'Marvel', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+header ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+
+header li {
+    display:inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#home-container{
+    width: 100%;
+    height: 1000px;
+    background-image: url("stan.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stan.jpg");
+    color: white;
+}
+
+#title-container{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 300px;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#title-container h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#title-container h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#bio-container{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#bio-text{
+    width: 400px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    text-align: center;
+}
+
+.titles{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+#bio-text p{
+    text-align: justify;
+}
+
+#bio-img{
+    width: 425px;
+    height: 425px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url("stan-bio.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("stan-bio.jpg");
+}
+
+#heroes-container{
+    width: 100%;
+    height: 700px;
+    color: white;
+    margin-top: 10%;
+}
+
+#heroes-container h1{
+    text-align: center;
+}
+
+#heroes-container h4{
+    text-align: center;
+}
+
+#card-container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 270px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.image-holder{
+    width: 230px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 19px 38px rgba(black, 0.3), 0 15px 12px rgba(black, 0.2);
+}
+
+.card-title{
+    width: 270px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #8C111B;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#copyright{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+#copyright h4{
+    color: white;
+    font-size: 20px;
+}
+
+#social-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 30px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
