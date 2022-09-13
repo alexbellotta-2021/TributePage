@@ -103,9 +103,9 @@ header li {
 
 #heroes-container{
     width: 100%;
-    height: 700px;
+    height: auto;
     color: white;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #heroes-container h1{
@@ -124,6 +124,7 @@ header li {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: auto;
 }
 
 .card{
@@ -187,4 +188,126 @@ footer{
 .icon a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px){
+    #home-container{
+        background-color: #1D1E26;
+        width: 100%;
+        height: 200px;
+        color: white;
+    }
+    
+    #title-container{
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-top: auto;
+        text-align: center;
+    }
+    
+    #title-container h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    #title-container h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    #bio-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #bio-text{
+        width: 400px;
+        height: auto;
+        margin: auto;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .titles{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 100px;
+    }
+    
+    #bio-text p{
+        text-align: justify;
+    }
+    
+    #bio-img{
+        width: 425px;
+        height: 425px;
+        margin: auto;
+        background-image: url("stan-bio.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("stan-bio.jpg");
+        padding: 20px;
+    }
+
+    #heroes-container{
+        width: 100%;
+        height: auto;
+        color: white;
+        margin-top: 10%;
+    }
+
+    #card-container{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: auto;
+    }
+
+    footer{
+        width: auto;
+        height: auto;
+        background-color: #8C111B;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #copyright{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        line-height: 100px;
+        margin: auto;
+    }
+    
+    #copyright h4{
+        color: white;
+        font-size: 20px;
+    }
+    
+    #social-container{
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .icon{
+        font-size: 30px;
+        margin: 15px;
+    }
+
 }
